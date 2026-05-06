@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartita para mi Cielito</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Georgia', serif;
+      background: #fbeffb;
+    }
+
+    .carta {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      padding: 40px;
+      width: 600px;
+      min-height: 400px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      animation: aparecer 1.5s ease;
+    }
+
+    .carta h1 {
+      color: #e91e63;
+      margin-bottom: 20px;
+      font-family: 'Cursive', sans-serif;
+    }
+
+    .carta p {
+      font-size: 1.2em;
+      color: #333;
+      line-height: 1.6;
+      margin: 20px 0;
+    }
+
+    .carta img {
+      max-width: 100%;
+      border-radius: 15px;
+      margin: 20px 0;
+    }
+
+    @keyframes aparecer {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Música que se reproduce automáticamente -->
+  <audio autoplay loop>
+    <source src="Dark-Latin-Groove-La-Quiero-A-Morir-_Media_wCBu0PkoNPs_007_128k.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
+
+  <div class="carta">
+    <h1>💌 Para mi Cielito 💌</h1>
+    <p>
+      Bueno, bueno, bueno. Aquí estoy, escribiéndote esta cartita otra vez. Con otro detalle único dentro de la misma, con otro mensaje diferente.<br><br>
+      Y es que, ¿sabes qué? No puedo evitarlo, cada vez que pienso en ti, me lleno de alegría. Eres esa persona especial que ilumina mis días y hace que todo valga la pena.<br><br>
+      Así que te hago esta cartita para recordarte lo mucho que te quiero y lo importante que eres para mí. Eres mi cielo, mi sol, mi todo. No hay palabras suficientes para expresar lo que siento por ti, pero espero que esta cartita te haga sonreír y te recuerde lo mucho que te adoro.<br><br>
+      Gracias por ser tú, por ser quién eres, por compartir tus todo conmigo y por hacer que cada momento juntos sea mágico. Eres mi inspiración y mi motivación para ser mejor cada día.<br><br>
+      Para ser un mejor hombre para tí <3 <br>
+        <br>
+      PD: Mi Cielito linda, junto a esta cartita, te dejo una imagen que tomó el satélite Landsat, formando las letras de tu hermoso nombre escritos en nuestro hermoso planeta. Te quiero<3.
+    </p>
+    <!-- Imagen personalizada -->
+    <img src="CIELO.png" alt="Imagen especial">
+    <p>
+      Con todo el cariño del mundo,<br>
+      Tu Kari❤️
+    </p>
+  </div>
+</body>
+</html>
